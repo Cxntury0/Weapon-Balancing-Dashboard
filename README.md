@@ -2,7 +2,7 @@
 
 Interactive Tableau Dashboard Project
 
-🔗 Live Dashboard (Tableau Public):
+## Live Dashboard (Tableau Public):
 https://public.tableau.com/app/profile/nico.h.chler/viz/GamesWeaponBalancingbyWeaponRarity/GamesWeaponBalancingbyWeaponRarity
 
 ## Project Overview
@@ -13,7 +13,7 @@ The objective was to evaluate whether weapon attributes such as Attack Power, Ra
 
 The dashboard was built in Tableau Public and designed to simulate a real-world game analytics scenario where design teams evaluate stat distribution across item tiers.
 
-🎯 Analytical Goals
+## Analytical Goals
 
 This analysis aims to answer the following game design questions:
 
@@ -27,8 +27,8 @@ Are certain rarity tiers over- or under-represented?
 
 Does material type significantly influence weapon damage output?
 
-📊 Dashboard Features
-🔄 View Toggle: Dumbbell ↔ Bar Chart
+## Dashboard Features
+View Toggle: Dumbbell ↔ Bar Chart
 
 Users can switch between:
 
@@ -40,7 +40,7 @@ Displays the same metrics in a traditional comparative format for clearer numeri
 
 This dual-view approach allows both intuitive visual comparison and precise value analysis.
 
-📦 Number of Weapons by Rarity
+## Number of Weapons by Rarity
 
 A distribution breakdown showing how many weapons exist in each rarity tier.
 This helps contextualize whether balancing issues may be influenced by item volume.
@@ -64,7 +64,7 @@ Potential material scaling imbalances
 Provides a high-level comparison of durability by rarity tier.
 This visual emphasizes structural balance beyond raw damage.
 
-🎛 Interactive Filtering
+## Interactive Filtering
 
 Users can:
 
@@ -74,7 +74,7 @@ Highlight specific tiers
 
 Switch between visualization modes
 
-🧠 Key Insights
+## Key Insights
 
 Common weapons display disproportionately high attack power relative to certain mid-tier rarities, suggesting potential early-game balancing inconsistencies.
 
@@ -86,7 +86,7 @@ Material type significantly impacts damage output, even within the same rarity t
 
 Some rarity tiers exhibit stronger range scaling than attack scaling, indicating non-linear stat progression.
 
-🛠 Tools & Technologies
+## Tools & Technologies
 
 Tableau Public
 
@@ -98,7 +98,7 @@ Dashboard UX design principles
 
 No extensive data cleaning was required, allowing the project to focus primarily on analytical reasoning and visualization design.
 
-📂 Dataset
+## Dataset
 
 Source: Kaggle
 
