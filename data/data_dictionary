@@ -1,0 +1,27 @@
+# Data Dictionary – Games Weapon Balancing
+
+## Dataset Overview
+Contains information on 1,000 unique weapons, including fantasy and modern types. Suitable for game design, simulations, and data analysis projects.
+
+## Key Columns
+
+| Column        | Description                                                                   |
+|---------------|-------------------------------------------------------------------------------|
+| WeaponID      | Unique identifier for each weapon                                             |
+| WeaponType    | Weapon classification (e.g., Swords, Axes, Rifles, Laser Guns)                |
+| Material      | Primary material affecting durability and performance (e.g., Steel, Graphene) |
+| Rarity        | Weapon rarity from "Common" (lowest) to "Mythical" (highest), (modified)      |
+| AttackPower   | Numeric damage potential adjusted for dashboard comparisons                   |
+| Durability    | Score reflecting weapon durability under use                                  |
+| Range         | Effective range in meters (relevant for ranged weapons)                       |
+| Weight        | Weight in kilograms affecting maneuverability                                 |
+
+## Applications
+
+- **Data Analysis:** Explore relationships between weapon type, material, and performance.  
+- **Game Development:** Assist in balancing and designing engaging gameplay systems.  
+- **Machine Learning:** Predict weapon effectiveness, simulate scenarios, or classify items.
+
+## Notes
+- Dataset licensed under [DbCL v1.0](https://opendatacommons.org/licenses/dbcl/1-0/).  
+- Minimal cleaning and modifiying performed; processed version used in dashboard is `data/processed/weapon_balancing_clean.csv`.
