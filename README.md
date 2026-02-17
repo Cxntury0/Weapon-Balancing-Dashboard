@@ -1,111 +1,120 @@
-# **Games Weapon Balancing by Weapon Rarity**
 
-Interactive Tableau Dashboard Project
+# Games Weapon Balancing by Weapon Rarity  
+### Interactive Tableau Dashboard Project
 
-## Live Dashboard (Tableau Public):
-
+🔗 **Live Dashboard (Tableau Public):**  
 https://public.tableau.com/app/profile/nico.h.chler/viz/GamesWeaponBalancingbyWeaponRarity/GamesWeaponBalancingbyWeaponRarity
 
-## Project Overview
+---
 
-This project analyzes weapon balancing across rarity tiers in a fictional game dataset.
+## 📌 Project Overview
 
-The objective was to evaluate whether weapon attributes such as Attack Power, Range, and Durability scale consistently with rarity and to identify potential balancing inconsistencies that could impact gameplay fairness and player progression.
+This project analyzes **weapon balancing across rarity tiers** in a fictional game dataset.
 
-The dashboard was built in Tableau Public and designed to simulate a real-world game analytics scenario where design teams evaluate stat distribution across item tiers.
+The objective was to evaluate whether weapon attributes such as **Attack Power, Range, and Durability** scale consistently with rarity, and to identify potential balancing inconsistencies that could impact gameplay fairness and player progression.
 
-## Analytical Goals
+The dashboard was built in **Tableau Public** and simulates a real-world game analytics scenario where design teams evaluate stat distribution across item tiers.
 
-### This analysis aims to answer the following game design questions:
+---
 
-Do higher rarity weapons consistently provide stronger stats?
+## 🎯 Analytical Goals
 
-Is there proportional scaling between Attack Power and Range?
+This analysis aims to answer the following game design questions:
 
-How does weapon durability compare across rarities?
+- Do higher rarity weapons consistently provide stronger stats?
+- Is there proportional scaling between **Attack Power** and **Range**?
+- How does weapon durability compare across rarities?
+- Are certain rarity tiers over- or under-represented?
+- Does material type significantly influence weapon damage output?
 
-Are certain rarity tiers over- or under- represented?
+---
 
-Does material type significantly influence weapon damage output?
+## 📊 Dashboard Features
 
-## Dashboard Features
-
-### View Toggle: Dumbbell ↔ Bar Chart
+### - View Toggle: Dumbbell ↔ Bar Chart
 
 Users can switch between:
 
-Bar Chart
-Used to visually compare Average Attack Power vs Average Range per rarity tier.
+**📊 Bar Chart**  
+- Compares *Average Attack Power* vs *Average Range* per rarity tier.
 
-Dumbell Chart
-Displays the minimum/maximum and range of Attack Power per rarity tier.
+**📍 Dumbbell Chart**  
+- Displays minimum, maximum, and distribution range of Attack Power per rarity tier.
 
-This dual-view approach allows both interactivity in one chart and precise value analysis.
+This dual-view approach allows:
+- Quick comparison of averages
+- Precise evaluation of stat distribution
 
-### Number of Weapons by Rarity
+---
 
-A distribution breakdown showing how many weapons exist in each rarity tier.
-This helps contextualize whether balancing issues may be influenced by item volume.
+### - Number of Weapons by Rarity
 
-### Average Damage by Material (Heatmap)
+A distribution breakdown showing how many weapons exist in each rarity tier.  
+This contextualizes whether balancing concerns are influenced by item volume.
+
+---
+
+### - Average Damage by Material (Heatmap)
 
 Displays damage output across:
 
-Weapon materials
+- Weapon materials
+- Rarity tiers
 
-Rarity tiers
+### - The heatmap enables quick identification of:
+- High-performing material/rarity combinations
+- Potential material scaling imbalances
 
-### The heatmap enables quick identification of:
+---
 
-High-performing material/rarity combinations
+### - Average Weapon Durability (Treemap)
 
-Potential material scaling imbalances
+Provides a high-level comparison of durability by rarity tier.  
+This visualization emphasizes structural balance beyond raw damage output.
 
-### Average Weapon Durability (Treemap)
+---
 
-Provides a high-level comparison of durability by rarity tier.
-This visual emphasizes structural balance beyond raw damage.
-
-### Interactive Filtering
+### - Interactive Filtering
 
 Users can:
 
-Filter by rarity
+- Filter by rarity
+- Highlight specific tiers
+- Switch between visualization modes
 
-Highlight specific tiers
+---
 
-Switch between visualization modes
+## 🔎 Key Insights
 
-## Key Insights
+- **Common weapons** display disproportionately high attack power relative to certain mid-tier rarities, suggesting potential early-game balancing inconsistencies.
+- **Mythical weapons** show the highest durability, but not always the highest attack power — indicating differentiated stat design.
+- The **Uncommon tier** contains the highest number of weapons, potentially influencing balancing perception due to volume.
+- Material type significantly impacts damage output, even within the same rarity tier.
+- Some rarity tiers exhibit stronger range scaling than attack scaling, indicating non-linear stat progression.
 
-Common weapons display disproportionately high attack power relative to certain mid-tier rarities, suggesting potential early-game balancing inconsistencies.
+---
 
-Mythical weapons show the highest durability, but not always the highest attack power, indicating differentiated stat design.
+## 🛠 Tools & Technologies
 
-Uncommon tier contains the highest number of weapons, potentially affecting balancing perception due to volume.
+- Tableau Public  
+- Kaggle dataset  
+- Data visualization best practices  
+- Dashboard UX design principles  
 
-Material type significantly impacts damage output, even within the same rarity tier.
+---
 
-Some rarity tiers exhibit stronger range scaling than attack scaling, indicating non-linear stat progression.
+## 📄 Dataset License
 
-### Tools & Technologies
+The **"Modern Weapons Dataset"** used in this project is licensed under:
 
-Tableau Public
+- Database Contents License (DbCL) 1.0  [Database Contents License (DbCL) 1.0](LICENSE.txt)
+- Open Database License (ODbL) 1.0  [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
 
-Kaggle dataset
+Original dataset source: [Kaggle – Modern Weapons Dataset](https://www.kaggle.com/datasets/bhadramohit/modern-weapons-dataset) 
 
-Data visualization best practices
+---
 
-Dashboard UX design principles
+## ⚠ Notes
 
-### Dataset License
-
-The "Modern Weapons Dataset" used in this project is licensed under the [Database Contents License (DbCL) 1.0](LICENSE.txt).
-Use of the dataset is subject to the [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
-
-Original dataset source: [Kaggle – Modern Weapons Dataset](https://www.kaggle.com/datasets/bhadramohit/modern-weapons-dataset)
-
-### Notes
-
-The Data in this Dashboard represent a fictional game scenario meant for analytical demonstration and training purpouses only.
+The data in this dashboard represent a **fictional game scenario** intended for analytical demonstration and training purposes only.
 
