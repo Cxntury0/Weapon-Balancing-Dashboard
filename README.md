@@ -103,6 +103,18 @@ Users can:
 
 ---
 
+## 🚀 Future Improvements
+
+If iterating further on this project, I would explore the following analytical enhancements:
+
+- Evaluate Attack Power efficiency relative to pick rate to distinguish popularity from actual performance strength.
+- Incorporate Damage Per Second (DPS) metrics to better evaluate weapon performance beyond raw attack power.
+- Analyze player by weapon rarity tier to identify balance discrepancies across progression levels.
+- Track meta dominance trends over time to monitor shifts in weapon popularity.
+- Simplify filter options by removing redundant “Legend” selections to improve dashboard usability and focus.
+
+---
+
 ## 📄 Dataset License
 
 The **"Modern Weapons Dataset"** used in this project is licensed under:
