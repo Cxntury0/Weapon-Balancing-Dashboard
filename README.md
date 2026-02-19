@@ -17,6 +17,20 @@ The dashboard was built in **Tableau Public** and simulates a real-world game an
 
 ---
 
+## 🖥️ Dashboard Preview
+
+<p float="left">
+  <a href="https://public.tableau.com/app/profile/nico.h.chler/viz/GamesWeaponBalancingbyWeaponRarity/GamesWeaponBalancingbyWeaponRarity">
+    <img src="dashboard/screenshots/bar_view.PNG" width="400" />
+  </>
+  <p float="right">
+  <a href="https://public.tableau.com/app/profile/nico.h.chler/viz/GamesWeaponBalancingbyWeaponRarity/GamesWeaponBalancingbyWeaponRarity">
+    <img src="dashboard/screenshots/dumbell_view.PNG" width="400" />
+  </a>
+</p>
+
+---
+
 ## 🎯 Analytical Goals
 
 This analysis aims to answer the following game design questions:
@@ -35,8 +49,8 @@ This analysis aims to answer the following game design questions:
 
 Users can switch between:
 
-**📊 Bar Chart**  
-- Compares *Average Attack Power* vs *Average Range* per rarity tier.
+**📏 Bar Chart**  
+- Compares Average Attack Power vs Average Range per rarity tier.
 
 **📍 Dumbbell Chart**  
 - Displays minimum, maximum, and distribution range of Attack Power per rarity tier.
@@ -87,7 +101,7 @@ Users can:
 ## 🔎 Key Insights
 
 - **Common weapons** display disproportionately high attack power relative to certain mid-tier rarities, suggesting potential early-game balancing inconsistencies.
-- **Mythical weapons** show the highest durability, but not always the highest attack power — indicating differentiated stat design.
+- **Mythical weapons** show the highest durability, but not always the highest attack power indicating differentiated stat design.
 - The **Uncommon tier** contains the highest number of weapons, potentially influencing balancing perception due to volume.
 - Material type significantly impacts damage output, even within the same rarity tier.
 - Some rarity tiers exhibit stronger range scaling than attack scaling, indicating non-linear stat progression.
@@ -103,19 +117,18 @@ Users can:
 
 ---
 
-## 🚀 Future Improvements
+## 🧩 Future Improvements
 
 If iterating further on this project, I would explore the following analytical enhancements:
 
 - Evaluate Attack Power efficiency relative to pick rate to distinguish popularity from actual performance strength.
-- Incorporate Damage Per Second (DPS) metrics to better evaluate weapon performance beyond raw attack power.
 - Analyze player by weapon rarity tier to identify balance discrepancies across progression levels.
 - Track meta dominance trends over time to monitor shifts in weapon popularity.
 - Simplify filter options by removing redundant “Legend” selections to improve dashboard usability and focus.
 
 ---
 
-## 📄 Dataset License
+## 💼 Dataset License
 
 The **"Modern Weapons Dataset"** used in this project is licensed under:
 
@@ -126,7 +139,7 @@ Original dataset source: [Kaggle – Modern Weapons Dataset](https://www.kaggle.
 
 ---
 
-## ⚠ Notes
+## 📄 Notes
 
 The data in this dashboard represent a **fictional game scenario** intended for analytical demonstration and training purposes only.
 
